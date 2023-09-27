@@ -1,8 +1,12 @@
 .filter{
   flex-grow: 1;
-  border: 1px solid red;
   background-color: #F9FAFF;
   padding: 20px;
+}
+
+.filter h4{
+  font-size: 12px;
+  font-weight: 200;
 }
 
 input{
@@ -19,13 +23,28 @@ input{
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 8px;
+  
 }
 
 .filters p{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
+  padding: 5px 10px;
 }
+
+
+.filters p h3{
+  font-size: 14px;
+}
+
+.filters p span{
+  font-size: 12px;
+}
+
+
+
 
 .filters ul{
   list-style: none;
@@ -43,6 +62,7 @@ input{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 .filters ul li span{

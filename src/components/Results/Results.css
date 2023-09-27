@@ -1,4 +1,159 @@
 .results{
   flex-grow: 4;
-  border: 1px solid red;
+  background-color: #F9FAFF;
+  padding: 5px 20px 20px 20px ;
+}
+
+.results header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results header ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+}
+
+.results header ul li{
+  padding: 7px 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.results header ul li button{
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #5E8CDA;
+  padding: 10px 0px 10px 15px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.results header ul li button span{
+  border-left: 1px solid white;
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results select{
+  outline: none;
+  border: none;
+  background-color: white;
+  padding: 5px;
+}
+
+.results select{
+  color: #1D4ED8;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #F9FAFF;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+.results select option{
+  color: #0B0B0B;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+}
+
+
+.results main head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+
+}
+
+.results main head div:first-child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.results main head div:first-child input{
+  width: 15px;
+}
+
+.results main head div:first-child span{
+  display: flex;
+  font-size: 14px;
+}
+.results main head div:last-child {
+  display: flex;
+  gap: 15px;
+}
+
+.results main head div:last-child span:first-child {
+  color: #1D4ED8;
+}
+
+
+.card{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  gap: 15px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.card div:last-child h3{
+  font-size: 14px;
+  margin-top: 3px;
+}
+.card div:last-child p{
+  margin-bottom: 1px;
+  margin-top: 4px;
+}
+
+.card div:last-child .location{
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.card div:last-child .uni{
+  font-size: 16px;
+} 
+.card div:last-child .hash{
+  font-size: 13px;
+} 
+.card div:last-child .tags{
+  font-size: 13px;
+} 
+
+
+
+
+.PPPic{
+  flex-grow: 1;
+  border-radius: 50%;
+  max-width: 50px;
+  min-height: 50px;
+  background-color: #B1CDFD;
+}
+
+input[type="checkbox"]{
+  width: 15px;
 }
