@@ -1,9 +1,13 @@
 .app{
   display: flex;
+  color: #0B0B0B;
 }
 
-.navForm{
+
+
+.page{
+  margin-left: 80px;
+  display: flex;
   width: 100%;
-  margin-top: 4%;
-  margin-left: 66px;
+  gap: 10px;
 }

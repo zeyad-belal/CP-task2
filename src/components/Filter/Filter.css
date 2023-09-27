@@ -1,0 +1,51 @@
+.filter{
+  flex-grow: 1;
+  border: 1px solid red;
+  background-color: #F9FAFF;
+  padding: 20px;
+}
+
+input{
+  background-color: white;
+  padding: 5px 10px;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.mainHeader{
+  color: #1D4ED8;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.filters p{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters ul{
+  list-style: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3px;
+  padding: 10px 10px 10px 0px;
+}
+
+.filters ul li{
+  padding: 10px 0px ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters ul li span{
+  display: flex;
+  gap: 5px;
+}

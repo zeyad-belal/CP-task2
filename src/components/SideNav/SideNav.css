@@ -1,0 +1,54 @@
+.sideNav{
+  position: fixed;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 5%;
+  padding: 1em 2em;
+  box-shadow: 0px 4px 23px rgba(0, 0, 0, 0.05);
+  gap: 5%;
+  background-color: white;
+}
+
+.sideNav div:first-child{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sideNav div:first-child div:first-child{
+  margin-bottom: 20px;
+}
+
+.Pic{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  background-color: #D9D9D9;
+}
+
+.PPic{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #B1CDFD;
+}
+
+.lastTwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.homeIcon{
+  background-color: #E9EFFF;
+  padding: 13px;
+  border-radius: 8px;
+}

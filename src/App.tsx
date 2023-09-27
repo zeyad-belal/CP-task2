@@ -1,8 +1,6 @@
 import './App.css'
-import ImageInput from './components/Form/ImageInput/ImageInput'
-import PersonalInfo from './components/Form/PersonalInfo/PersonalInfo'
-import Profile from './components/Form/Profile/Profile'
-import Nav from './components/Nav/Nav'
+import Filter from './components/Filter/Filter'
+import Results from './components/Results/Results'
 import SideNav from './components/SideNav/SideNav'
 
 function App() {
@@ -10,11 +8,9 @@ function App() {
   return (
     <div className='app'>
       <SideNav />
-      <div className='navForm'>
-        <Nav />
-        <ImageInput />
-        <PersonalInfo />
-        <Profile />
+      <div className='page'>
+        <Filter />
+        <Results />
       </div>
     </div>
   )
